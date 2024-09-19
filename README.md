@@ -1,6 +1,6 @@
 # Docker Swarm: A basic example with docker-in-docker
 
-It consists of an empty project that uses docker swarm initializing a manager node and other two workers nodes in the same local machine through **docker-in-docker**.
+It consists of an empty project using docker swarm by initializing a manager node and two other workers nodes in the same local machine through **docker-in-docker**.
 
 ## How to run
 
