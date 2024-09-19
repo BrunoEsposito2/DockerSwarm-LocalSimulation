@@ -10,7 +10,7 @@ First, run the **initSwarmNodes** script to initialize the docker swarm nodes - 
 .\initSwarmNodes.ps1
 ```
 
-Then, run the portainer in order to manage and visualize the docker swarm status with the following command:
+Then, run the **portainer** in order to manage and visualize the docker swarm status with the following command:
 
 ```console
 docker stack deploy -c portainer.yml portainer 
