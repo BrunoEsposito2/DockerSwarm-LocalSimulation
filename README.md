@@ -45,7 +45,7 @@ If you injected services on docker swarm nodes, you can remove all of them with 
 docker service rm (docker service ls -q)
 ```
 
-Instead, in case you don't, you can simply stop and remove all the containers with the following commands:
+To simply stop and remove all containers run the following commands:
 ```console
 docker stop (docker ps -q)
 docker rm (docker ps -aq) 
