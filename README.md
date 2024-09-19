@@ -38,7 +38,7 @@ docker service create --name web-server --replicas 3 -p 80:80 nginx
 docker service create --name redis --replicas 2 redis 
 ```
 
-## Swarm reset commands
+## How to stop
 
 If you injected services on docker swarm nodes, you can remove all of them with the following command:
 ```console
